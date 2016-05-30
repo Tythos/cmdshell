@@ -7,16 +7,16 @@ Supported Commands
 ------------------
 
 The following *NIX commands are mapped to their nearest Windows equivalents. In
-many cases these mappings are not exact::
+many cases these mappings are not exact:
 
-* cp => copy
-* ls => dir
-* man => /?
-* mv => move
-* rm => del/rmdir
-* which => where
-* cat => type
-* grep => findstr
+- cp => copy
+- ls => dir
+- man => /?
+- mv => move
+- rm => del/rmdir
+- which => where
+- cat => type
+- grep => findstr
 
 Argument Options
 ----------------
