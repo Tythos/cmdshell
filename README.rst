@@ -6,11 +6,8 @@ Set of batch scripts for partial support of several common BASH-like commands.
 Installation
 ------------
 
-Basic installation (just copying the contents of 'scripts/') is implemented by
-the 'install.bat' script. This can take an argument for the specific path into
-which the scripts will be installed--YOU are responsible for ensuring (if so
-desired) that this is on the system %PATH%. Alternatively, without an argument,
-the scripts will be copied into %SYSTEMROOT%.
+Copy contents to a folder on your %PATH%. Alternatively, add this folder to
+your %PATH%.
 
 Supported Commands
 ------------------
@@ -18,14 +15,21 @@ Supported Commands
 The following *NIX commands are mapped to their nearest Windows equivalents. In
 many cases these mappings are not exact:
 
+- cat => type
 - cp => copy
+- genpass => python-based password generator (not a *NIX command, I know)
+- grep => findstr
+- less => more (ironic, I know)
 - ls => dir
 - man => /?
+- md5 => certutil
 - mv => move
+- py2 => "enter" a python 2 environment
+- py3 => "enter" a python 3 environment
 - rm => del/rmdir
+- touch => nul-echo
+- unpy => exit the py2/py3 environment
 - which => where
-- cat => type
-- grep => findstr
 
 Argument Options
 ----------------
@@ -55,3 +59,4 @@ are a number of alternatives much better than these scripts, including:
 - PowerShell
 - CygWin
 - Git Bash
+- WSL2
